@@ -1,0 +1,95 @@
+body{
+font-family:'Segoe UI',Arial;
+background: radial-gradient(ellipse at top,#1e2746 0%,#0a1633 100%);
+min-height:100vh;
+margin:0;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.glass-card{
+background:rgba(255,255,255,0.13);
+backdrop-filter:blur(18px);
+border-radius:24px;
+padding:40px;
+width:420px;
+box-shadow:0 8px 32px rgba(0,0,0,0.3);
+}
+
+.logo-bar{
+text-align:center;
+margin-bottom:10px;
+}
+
+.devifyx-logo{
+height:50px;
+}
+
+.main-title{
+font-family:'Montserrat';
+text-align:center;
+color:white;
+margin-bottom:20px;
+}
+
+.chat-box{
+height:350px;
+overflow-y:auto;
+background:rgba(255,255,255,0.1);
+border-radius:12px;
+padding:15px;
+margin-bottom:15px;
+color:white;
+}
+
+.message{
+margin:10px 0;
+padding:10px;
+border-radius:10px;
+max-width:80%;
+}
+
+.user{
+background:#2563eb;
+margin-left:auto;
+}
+
+.bot{
+background:#374151;
+}
+
+.chat-input{
+display:flex;
+gap:10px;
+}
+
+.chat-input input{
+flex:1;
+padding:10px;
+border-radius:8px;
+border:none;
+}
+
+.chat-input button{
+background:#2563eb;
+color:white;
+border:none;
+padding:10px 16px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.chat-input button:hover{
+background:#1e40af;
+}
+
+.ad-banner{
+position:fixed;
+bottom:0;
+width:100%;
+text-align:center;
+background:#2563eb;
+color:white;
+padding:12px;
+}

@@ -1,0 +1,18 @@
+model_name: mistralai/Mistral-7B-Instruct-v0.2
+
+training:
+  epochs: 1
+  batch_size: 2
+  learning_rate: 2e-4
+  max_seq_length: 512
+  logging_steps: 10
+  save_steps: 500
+
+qlora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+
+compute:
+  gpu: A10G
+  max_gpu_hours: 20

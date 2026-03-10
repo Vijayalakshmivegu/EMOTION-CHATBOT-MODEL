@@ -1,0 +1,10 @@
+transformers
+datasets
+torch
+peft
+bitsandbytes
+accelerate
+pandas
+scikit-learn
+requirements.txt 
+requirements.txt 

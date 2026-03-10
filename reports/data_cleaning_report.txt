@@ -1,0 +1,11 @@
+
+Data Cleaning Report
+
+Emotion pairs extracted: 64591
+ESConv pairs extracted: 0
+
+Total pairs before cleaning: 64591
+Total pairs after cleaning: 64570
+
+Unsafe keywords removed:
+suicide, kill yourself, end your life, self-harm, cutting, overdose, hang yourself, jump off, shoot yourself, poison yourself
