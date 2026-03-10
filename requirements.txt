@@ -1,10 +1,9 @@
+flask
 transformers
-datasets
 torch
+datasets
 peft
-bitsandbytes
 accelerate
 pandas
 scikit-learn
-requirements.txt 
-requirements.txt 
+gunicorn
